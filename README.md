@@ -1,4 +1,4 @@
-# Scanned PDF to WeRead EPUB Skill
+# pdf2weread
 
 Agent Skill for converting authorized scanned book PDFs into WeRead-friendly EPUBs:
 
@@ -12,8 +12,8 @@ Agent Skill for converting authorized scanned book PDFs into WeRead-friendly EPU
 ## Layout
 
 ```text
-.agents/skills/scan-pdf-to-weread-epub/   # Codex/project Agent Skills layout
-.claude/skills/scan-pdf-to-weread-epub/   # Claude Code project layout
+.agents/skills/pdf2weread/   # Codex/project Agent Skills layout
+.claude/skills/pdf2weread/   # Claude Code project layout
 ```
 
 Each directory contains the same skill body:
@@ -26,11 +26,11 @@ references/
 requirements.txt
 ```
 
-For Codex personal install, copy the inner skill folder to `~/.codex/skills/scan-pdf-to-weread-epub`.
+For Codex personal install, copy the inner skill folder to `~/.codex/skills/pdf2weread`.
 
-For Claude Code personal install, copy the inner skill folder to `~/.claude/skills/scan-pdf-to-weread-epub`. For project use, keep the `.claude/skills/...` directory in the project root.
+For Claude Code personal install, copy the inner skill folder to `~/.claude/skills/pdf2weread`. For project use, keep the `.claude/skills/...` directory in the project root.
 
-The companion `scan-pdf-to-weread-epub.skill.zip` artifact has the skill directory at the zip root.
+The companion `pdf2weread.skill.zip` artifact has the skill directory at the zip root.
 
 ## Requirements
 
@@ -47,7 +47,7 @@ export MINERU_API_TOKEN="..."
 ## Example Prompt
 
 ```text
-Use $scan-pdf-to-weread-epub to convert /path/to/book.pdf into a WeRead-friendly EPUB.
+Use $pdf2weread to convert /path/to/book.pdf into a WeRead-friendly EPUB.
 Use MinerU for OCR, preserve the original book TOC, and output the EPUB plus QA report.
 ```
 

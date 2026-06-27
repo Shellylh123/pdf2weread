@@ -1,4 +1,0 @@
-interface:
-  display_name: "Scanned PDF to WeRead EPUB"
-  short_description: "Convert scanned books to WeRead EPUBs"
-  default_prompt: "Use $scan-pdf-to-weread-epub to convert this scanned book PDF into a WeRead-friendly EPUB."

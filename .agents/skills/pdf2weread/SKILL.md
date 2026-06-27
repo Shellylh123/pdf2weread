@@ -1,9 +1,9 @@
 ---
-name: scan-pdf-to-weread-epub
+name: pdf2weread
 description: Convert scanned book PDFs into WeRead-friendly reflowable EPUBs using OCR Markdown, cleanup rules, clickable book table of contents, image/table preservation, and EPUB navigation metadata. Use when asked to process scanned PDFs, OCR books, MinerU API or Markdown output, or Markdown into EPUB for 微信读书/WeRead with highlighting, paragraph cleanup, figure captions, and navigable table of contents.
 ---
 
-# Scanned PDF to WeRead EPUB
+# pdf2weread
 
 ## Core Contract
 
